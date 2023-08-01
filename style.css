@@ -1,0 +1,65 @@
+.title{
+    height: 100vh;
+    background: linear-gradient(300deg, #0d04a6, #000000);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edu{
+    height: 140vh;
+    background: linear-gradient(300deg, #7cd4ee, #ffffff);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ico{
+  width:50px;
+
+}
+.cont{
+    position: relative;
+    
+}
+
+.box {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+  }
+  .exp{
+    height: 150vh;
+    background: linear-gradient(300deg, #0d04a6, #000000);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white{
+    color: white;
+}
+.serif{
+    font-family: 'DM Serif Text', serif;
+}
+.sans{
+    font-family: 'Open Sans', sans-serif;
+}
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
