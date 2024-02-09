@@ -63,3 +63,8 @@
       background-position: 0% 50%;
     }
   }
+  .warning{
+    height: 4vh;
+    background: rgb(0, 234, 255);
+    align-items: center;
+  }
