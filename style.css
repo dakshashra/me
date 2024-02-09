@@ -64,7 +64,7 @@
     }
   }
   .warning{
-    height: 5vh;
+    height: 7vh;
     background: rgb(0, 234, 255);
     display: flex;
     justify-content: center;
