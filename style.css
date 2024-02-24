@@ -8,7 +8,7 @@
     align-items: center;
 }
 .edu{
-    height: 140vh;
+    height: 160vh;
     background: linear-gradient(300deg, #7cd4ee, #ffffff);
     background-size: 180% 180%;
     animation: gradient-animation 5s ease infinite;
@@ -64,7 +64,7 @@
     }
   }
   .warning{
-    height: 7vh;
+    
     background: rgb(0, 234, 255);
     display: flex;
     justify-content: center;
